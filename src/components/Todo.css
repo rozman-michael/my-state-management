@@ -1,0 +1,21 @@
+.Todo {
+	background-color: aliceblue;
+	border: 1px solid;
+    margin: 5px;
+    width: 600px;
+}
+
+.Todo__delete {
+	padding-left: 10px;
+	cursor: pointer;
+	color: 	red;
+}
+
+.Todo__text {
+	cursor: pointer;
+}
+
+.Todo__text--completed {
+	text-decoration: line-through;
+	color: darkgrey;
+}
